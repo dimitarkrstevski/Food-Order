@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/userentry2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textViewPrasanje2"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/RadioGroupPrasanja2"
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RadioButton
+                android:id="@+id/VtorcheckBoxOdgovor1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/VtorcheckBox2Odgovor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/VtorcheckBox3Odgovor3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/VtorcheckBox4Odgovor4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/VtorbtnZapomniGlas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Зачувај" />
+
+        <TextView
+            android:id="@+id/countDownText2"
+            android:layout_width="match_parent"
+            android:layout_height="31dp" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
